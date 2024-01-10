@@ -214,9 +214,115 @@
 # for indice, fruta in enumerate(frutas):
 #     print(f"Índice: {indice}, Fruta: {fruta}")
 
-cancion="Me gusta"
-cosas = ["aviones","viajar","mañana","viento","soñar","la mar"]
-tu=", me gustas tú"
+# cancion="Me gusta"
+# cosas = ["aviones","viajar","mañana","viento","soñar","la mar"]
+# tu=", me gustas tú"
 
-for indice, cosa in enumerate(cosas):
-    print(f"{cancion} {cosa} {tu}")
+# for indice, cosa in enumerate(cosas):
+#     print(f"{cancion} {cosa} {tu}")
+    
+#           desafío 1
+
+# num1 = int(input("numero 1: "))
+# num2 = int(input("numero 2: "))
+# a=True
+
+# while a:
+#     selec=int(input("Elige una opción:\n\n1- Sumar \n2- Restar \n3-Multiplicar \n4-Dividir\n\n5-Salir\n\n"))
+#     if selec==1:
+#         print("la suma es: ", num1+num2)
+#     elif selec==2:
+#         print("la resta es:", num1-num2)
+#     elif selec==3:
+#         print("la multiplicación es:", num1*num2)
+#     elif selec==4:
+#         print("la división es:",num1/num2)
+#     elif selec==5:
+#         print("Saliendo . . .")
+#         break
+#     else:
+#         print("Selecciona una opción válida")
+#         continue
+
+#           desafío 2
+
+# num = int(input("Ingresa un número impar: "))
+
+# if num%2 !=0:
+#     print("el numero es impar")
+# else:
+#     print("El numero no es impar")
+    
+# while True:
+#     entrada=input("Ingresa número impar o 'exit' para salir: ")
+    
+#     if entrada.lower()=="exit":
+#         print("Saliendo del programa . . .")
+#         break
+#     else:
+#         num=int(entrada)
+#         if num%2 !=0:
+#             print(num, "es impar")
+#         else:
+#             print(num," no es impar")
+
+
+#           desafío 3
+# suma_impares = 0
+
+# for numero in range(1,101,2):
+#     suma_impares+=numero
+# print("la suma es",suma_impares)
+
+# suma_impares=sum(range(1,101,2))
+# print(suma_impares)
+
+#           desafío 4
+
+# introd=int(input("Cuantos números desea introducir? : "))
+
+# suma=0  #variable acumuladora
+
+# for i in range(introd):
+#     numero=int(input(f"ingrese el número #{i+1}:"))
+#     suma+=numero
+
+# if numero !=1:
+#     print(f"la suma de los {introd} numeros es: {suma}")
+# else:
+#     print(f"el número es",suma)
+    
+# media =suma/introd
+# print(f"la media aritmética de los números es: {media}")
+
+#           desafío 5
+
+# num = int(input("Ingresa un número del 0 al 9: "))
+# lista=[0,1,2,3,4,5,6,7,8,9]
+
+# for valor in lista:
+#     if num ==valor:
+#         print("el número es correcto")
+#     else:
+#         print("Número incorrecto.")
+        
+lista=["man","per","sand"]
+for valor in lista:
+    print("soy el valor de la lista", valor)
+
+num=int(input("ingresa un número del 0 al 9: "))
+lista=list(range(0,10))
+
+for valor in lista:
+    if num ==valor:
+        print("el numero es correcto")
+    else:
+        print("again")
+
+# for valor in lista:
+#     num=int(input("Ingresa número del 0 al 9: "))
+#     if num==valor:
+#         print("Número aceptado")
+#     else:
+#         print("Ingrese número nuevamente")
+#         continue
